@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class DemoGrossPay {
+
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+
+        
+        double hourlyRate = 22.75;
+
+       
+        System.out.print("Enter hours worked: ");
+        double hoursWorked = scanner.nextDouble();
+
+        double grossPay = hoursWorked * hourlyRate;
+
+        
+        System.out.println("Gross Pay: $" + grossPay);
+
+ 
+    }
+}
